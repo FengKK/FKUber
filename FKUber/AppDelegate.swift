@@ -13,14 +13,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate
 {
 
     var window: UIWindow?
-
+    
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool
     {
-
+        window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        showGuidePage()
         return true
     }
-
+    func showGuidePage()
+    {
+       
+        let page = GuidePage()
+        self.window?.rootViewController = page
+        self.window?.makeKeyAndVisible()
+    }
     func applicationWillResignActive(application: UIApplication)
     {
 
