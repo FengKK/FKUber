@@ -8,6 +8,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GuidePage" customModule="FKUber" customModuleProvider="target">
             <connections>
                 <outlet property="backImageView" destination="rOK-3Z-2Sd" id="fxY-1h-YDg"/>
+                <outlet property="backView" destination="eHc-tk-0kG" id="1Zl-0W-l0c"/>
                 <outlet property="view" destination="iN0-l3-epB" id="Tvp-VF-Knt"/>
             </connections>
         </placeholder>
@@ -16,37 +17,51 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
+                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eHc-tk-0kG">
+                    <rect key="frame" x="0.0" y="0.0" width="360" height="568"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yxs-iW-7JB">
+                            <rect key="frame" x="15" y="499" width="140" height="44"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <state key="normal" title="登录">
+                                <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IcN-qc-eO3">
+                            <rect key="frame" x="185" y="499" width="140" height="44"/>
+                            <color key="backgroundColor" red="0.0" green="0.73333333333333328" blue="0.82352941176470584" alpha="1" colorSpace="calibratedRGB"/>
+                            <state key="normal" title="注册">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="IcN-qc-eO3" secondAttribute="bottom" constant="25" id="1jh-Kz-9cl"/>
+                        <constraint firstItem="IcN-qc-eO3" firstAttribute="leading" secondItem="yxs-iW-7JB" secondAttribute="trailing" constant="10" id="Du5-If-zhH"/>
+                        <constraint firstItem="IcN-qc-eO3" firstAttribute="height" secondItem="yxs-iW-7JB" secondAttribute="height" id="Jz9-05-PME"/>
+                        <constraint firstAttribute="trailing" secondItem="IcN-qc-eO3" secondAttribute="trailing" constant="55" id="RaO-P3-LxP"/>
+                        <constraint firstItem="yxs-iW-7JB" firstAttribute="leading" secondItem="eHc-tk-0kG" secondAttribute="leading" constant="15" id="Sm6-vt-sQU"/>
+                        <constraint firstItem="IcN-qc-eO3" firstAttribute="width" secondItem="yxs-iW-7JB" secondAttribute="width" id="UyI-ji-adI"/>
+                        <constraint firstAttribute="bottom" secondItem="yxs-iW-7JB" secondAttribute="bottom" constant="25" id="tFj-Os-RiY"/>
+                    </constraints>
+                </view>
                 <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo-067.png" translatesAutoresizingMaskIntoConstraints="NO" id="rOK-3Z-2Sd">
                     <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                 </imageView>
-                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IcN-qc-eO3">
-                    <rect key="frame" x="165" y="486" width="140" height="44"/>
-                    <color key="backgroundColor" red="0.0" green="0.73333333333333328" blue="0.82352941176470584" alpha="1" colorSpace="calibratedRGB"/>
-                    <state key="normal" title="注册">
-                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </state>
-                </button>
-                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yxs-iW-7JB">
-                    <rect key="frame" x="15" y="486" width="140" height="44"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    <state key="normal" title="登录">
-                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                    </state>
-                </button>
             </subviews>
             <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstAttribute="bottom" secondItem="yxs-iW-7JB" secondAttribute="bottom" constant="36" id="0BV-78-Dm4"/>
-                <constraint firstItem="IcN-qc-eO3" firstAttribute="width" secondItem="yxs-iW-7JB" secondAttribute="width" id="21U-ed-uJb"/>
+                <constraint firstItem="eHc-tk-0kG" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="0Ya-ve-cEV"/>
                 <constraint firstAttribute="bottom" secondItem="rOK-3Z-2Sd" secondAttribute="bottom" id="FUz-mI-yb8"/>
+                <constraint firstAttribute="bottom" secondItem="eHc-tk-0kG" secondAttribute="bottom" constant="32" id="FjQ-78-Os3"/>
                 <constraint firstItem="rOK-3Z-2Sd" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="MdJ-Pt-daU"/>
                 <constraint firstAttribute="trailing" secondItem="rOK-3Z-2Sd" secondAttribute="trailing" id="PZe-Wc-ZNr"/>
-                <constraint firstItem="IcN-qc-eO3" firstAttribute="height" secondItem="yxs-iW-7JB" secondAttribute="height" id="W2A-km-nV3"/>
                 <constraint firstItem="rOK-3Z-2Sd" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Wyy-ww-VSF"/>
-                <constraint firstAttribute="bottom" secondItem="IcN-qc-eO3" secondAttribute="bottom" constant="36" id="bU2-Ze-nzB"/>
-                <constraint firstAttribute="trailing" secondItem="IcN-qc-eO3" secondAttribute="trailing" constant="53" id="uX6-SK-0wE"/>
-                <constraint firstItem="yxs-iW-7JB" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="53" id="wG5-Fx-tsd"/>
+                <constraint firstAttribute="trailing" secondItem="eHc-tk-0kG" secondAttribute="trailing" id="d1s-ti-rpm"/>
+                <constraint firstItem="eHc-tk-0kG" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="yYn-l6-d66"/>
             </constraints>
+            <point key="canvasLocation" x="92" y="333"/>
         </view>
     </objects>
     <resources>

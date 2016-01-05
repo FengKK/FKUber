@@ -235,6 +235,7 @@
 		10CBD5861C3184CA00512F67 /* GuidePage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10CBD5851C3184CA00512F67 /* GuidePage.xib */; };
 		10CBD58A1C318DBF00512F67 /* LaunchImage-700-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10CBD5881C318DBF00512F67 /* LaunchImage-700-568h@2x.png */; };
 		10CBD58B1C318DBF00512F67 /* LaunchImage-700@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10CBD5891C318DBF00512F67 /* LaunchImage-700@2x.png */; };
+		10CFE1FD1C3C1446007A7D01 /* welcome_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 10CFE1FC1C3C1446007A7D01 /* welcome_video.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -489,6 +490,7 @@
 		10CBD5851C3184CA00512F67 /* GuidePage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GuidePage.xib; sourceTree = "<group>"; };
 		10CBD5881C318DBF00512F67 /* LaunchImage-700-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-700-568h@2x.png"; sourceTree = "<group>"; };
 		10CBD5891C318DBF00512F67 /* LaunchImage-700@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-700@2x.png"; sourceTree = "<group>"; };
+		10CFE1FC1C3C1446007A7D01 /* welcome_video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = welcome_video.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -576,6 +578,7 @@
 		10CBD3BA1C31726600512F67 /* Resourses */ = {
 			isa = PBXGroup;
 			children = (
+				10CFE1FB1C3C1428007A7D01 /* Video */,
 				10CBD3C51C31744A00512F67 /* Config */,
 				10CBD3C41C31744800512F67 /* Images */,
 				10CBD3C31C31744500512F67 /* Xib */,
@@ -917,6 +920,14 @@
 			path = Logo/LaunchImage;
 			sourceTree = "<group>";
 		};
+		10CFE1FB1C3C1428007A7D01 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				10CFE1FC1C3C1446007A7D01 /* welcome_video.mp4 */,
+			);
+			name = Video;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1041,6 +1052,7 @@
 				10CBD50F1C31846000512F67 /* logo-028@3x.png in Resources */,
 				10CBD5311C31846000512F67 /* logo-040.png in Resources */,
 				10CBD5431C31846000512F67 /* logo-046.png in Resources */,
+				10CFE1FD1C3C1446007A7D01 /* welcome_video.mp4 in Resources */,
 				10CBD5321C31846000512F67 /* logo-040@2x.png in Resources */,
 				10CBD4F71C31846000512F67 /* logo-020@3x.png in Resources */,
 				10CBD5841C31846000512F67 /* logo-067@3x.png in Resources */,
