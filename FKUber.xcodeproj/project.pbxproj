@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10C1403E1C3D6373009B9094 /* FXLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C1403D1C3D6373009B9094 /* FXLocation.swift */; };
 		10CBD38D1C316BE000512F67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CBD38C1C316BE000512F67 /* AppDelegate.swift */; };
 		10CBD38F1C316BE000512F67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CBD38E1C316BE000512F67 /* ViewController.swift */; };
 		10CBD3921C316BE000512F67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10CBD3901C316BE000512F67 /* Main.storyboard */; };
@@ -256,6 +257,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10C1403D1C3D6373009B9094 /* FXLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FXLocation.swift; sourceTree = "<group>"; };
 		10CBD3891C316BE000512F67 /* FKUber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FKUber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10CBD38C1C316BE000512F67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10CBD38E1C316BE000512F67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -649,6 +651,7 @@
 		10CBD3C21C3173E000512F67 /* Global */ = {
 			isa = PBXGroup;
 			children = (
+				10C1403D1C3D6373009B9094 /* FXLocation.swift */,
 			);
 			name = Global;
 			sourceTree = "<group>";
@@ -1277,6 +1280,7 @@
 				10CBD3E91C3180AE00512F67 /* FxDefine.swift in Sources */,
 				10CBD3EB1C3182FD00512F67 /* FxURLDefine.swift in Sources */,
 				10CBD3C81C31759200512F67 /* BaseInfo.swift in Sources */,
+				10C1403E1C3D6373009B9094 /* FXLocation.swift in Sources */,
 				10CBD3D91C31769800512F67 /* LoginPage.swift in Sources */,
 				10CBD3D01C31765E00512F67 /* FxRegister.swift in Sources */,
 				10CBD3D41C31767500512F67 /* FxBaseController.swift in Sources */,

@@ -28,11 +28,9 @@
 	<array>
 		<string>armv7</string>
 	</array>
-	<key>UISupportedInterfaceOrientations</key>
-	<array>
-		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
-	</array>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<true/>
+	<key>NSLocationUsageDescription</key>
+	<string>我们以此设置您的乘车位置，并改进我们的服务，您可以在“隐私声明”中，了解更多</string>
 </dict>
 </plist>

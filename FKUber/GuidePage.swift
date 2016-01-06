@@ -17,6 +17,7 @@ class GuidePage: FxBasePage
     
     var player:AVPlayer!
     var playerItem:AVPlayerItem!
+    var location:FXLocation!
     
     override func viewDidLoad()
     {
@@ -89,5 +90,11 @@ class GuidePage: FxBasePage
         item.seekToTime(kCMTimeZero)
         
         self.player.play()
+    }
+    
+    @IBAction func doLogin()
+    {
+        location = FXLocation()
+        location.startLocation()
     }
 }
